@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <video controls autoplay="autoplay" id="remoteVideo" width="640" heigh="480"></video>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript" src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script type="text/javascript" src="~/lib/signalr/dist/browser/signalr.js"></script>
+    <script type="text/javascript" src="~/js/webrtc.js"></script>
+}

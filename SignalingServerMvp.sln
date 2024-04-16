@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalingServer", "SignalingServer\SignalingServer.csproj", "{924BA8F8-2F5E-4113-A797-B29C96DBF4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPSorceryMedia.FFmpeg", "..\SIPSorceryMedia.FFmpeg\src\SIPSorceryMedia.FFmpeg.csproj", "{EF7947EF-5DD5-4B4F-9E6C-C4A231BDE5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRtcClient", "WebRtcClient\WebRtcClient.csproj", "{498DA081-AC39-4ECC-91FF-A2B4C1423DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924BA8F8-2F5E-4113-A797-B29C96DBF4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924BA8F8-2F5E-4113-A797-B29C96DBF4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924BA8F8-2F5E-4113-A797-B29C96DBF4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924BA8F8-2F5E-4113-A797-B29C96DBF4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7947EF-5DD5-4B4F-9E6C-C4A231BDE5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7947EF-5DD5-4B4F-9E6C-C4A231BDE5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7947EF-5DD5-4B4F-9E6C-C4A231BDE5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7947EF-5DD5-4B4F-9E6C-C4A231BDE5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498DA081-AC39-4ECC-91FF-A2B4C1423DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498DA081-AC39-4ECC-91FF-A2B4C1423DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498DA081-AC39-4ECC-91FF-A2B4C1423DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498DA081-AC39-4ECC-91FF-A2B4C1423DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

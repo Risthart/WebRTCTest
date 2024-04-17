@@ -1,4 +1,3 @@
-using FFmpeg.AutoGen;
 using WebRtcClientMvp;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,8 +34,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapHub<SignalingHub>("/signals");
-
-ffmpeg.RootPath =
-    @"D:\Common\SIPSorceryMedia.FFmpeg\lib\x64";
 
 app.Run();
